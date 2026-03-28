@@ -1,0 +1,19 @@
+#main .header .paragraph ~ p{ /* Дочірній селектор,  послідовність селекторів*/
+    background: aquamarine;
+}
+h1 {
+    color: greenyellow;
+}
+.heading-2 {
+    color: blueviolet;
+}
+#heading-3 {
+    color: orange;
+}
+a[href^="/hyperlink"] {
+    color: purple;
+}
+.header .paragraph { /* Вкладений селектор */
+    color: blueviolet;
+}
+

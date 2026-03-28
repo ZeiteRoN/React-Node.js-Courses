@@ -21,6 +21,7 @@ a:hover {
 .gallery-section {
     display: flex;
     flex-wrap: wrap;
+
     gap: 20px;
 }
 

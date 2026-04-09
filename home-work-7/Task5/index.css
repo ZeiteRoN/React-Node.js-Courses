@@ -1,0 +1,12 @@
+.react-img-1 {
+    float: left;
+}
+.react-img-2 {
+    float: right;
+}
+.left-clear {
+    clear: left;
+}
+.right-clear {
+    clear: right;
+}

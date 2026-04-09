@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    gap: 40px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.cont-1 {
+    overflow: hidden;
+}
+.cont-2 {
+    overflow: scroll;
+}
+.cont-3 {
+    overflow: visible;
+}

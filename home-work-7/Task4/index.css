@@ -1,0 +1,24 @@
+div {
+
+}
+
+.block-element-1{
+    background: red;
+    padding: 50px;
+    display: flex;
+    box-sizing: border-box;
+}
+.block-element-2 {
+    background: yellow;
+    padding: 50px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.block-element-3 {
+    background: green;
+    display: block;
+}
+.block-element-4 {
+    background: blue;
+    display: inline-block;
+}

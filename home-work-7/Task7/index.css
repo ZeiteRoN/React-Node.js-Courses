@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    gap: 40px;
+}
+
+.block {
+    width: 150px;
+    height: 150px;
+    background: greenyellow;
+}
+
+.element-1 {
+    position: static;
+}
+.element-2 {
+    position: absolute;
+    left: 300px;
+    top: 450px;
+}
+.element-3 {
+    position: relative;
+    top: 250px;
+    left: 150px;
+}
+.element-4 {
+    position: fixed;
+    left: 500px;
+    top: 450px;
+}
+.element-5 {
+    position: sticky;
+    top: 0;
+}

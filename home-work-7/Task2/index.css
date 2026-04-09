@@ -1,0 +1,22 @@
+.inline-element-1 {
+    display: flex;
+    background: greenyellow;
+}
+.inline-element-2 {
+    background: aquamarine;
+    display: block;
+}
+.inline-element-3 {
+    background: brown;
+}
+.block-element-1 {
+    background: deeppink;
+}
+.block-element-2 {
+    background: green;
+    display: inline-block;
+}
+.block-element-3 {
+    background: mediumpurple;
+    display: block;
+}

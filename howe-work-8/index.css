@@ -1,0 +1,57 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    width: 75%;
+    background: #bdc8c1;
+    align-items: center;
+    padding: 16px;
+}
+
+.default-block {
+    width: 100px;
+    height: 40px;
+    background: #aeb2ae;
+    border: 1px solid grey;
+}
+
+.justify-between {
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.flex-row {
+    display: flex;
+    gap: 16px;
+}
+
+.double-block {
+    width: 100px;
+    height: 90px;
+    background: #aeb2ae;
+    border: 1px solid grey;
+}
+
+.justify-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

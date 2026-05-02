@@ -1,0 +1,18 @@
+shape {
+    stroke-width: 5px;
+}
+
+.animated-circle {
+    animation: colorShift 3s infinite alternate ease-in-out;
+}
+
+@keyframes colorShift {
+    from {
+        fill: #ffcc00;
+        stroke: #e67e22;
+    }
+    to {
+        fill: #9b59b6;
+        stroke: #2c3e50;
+    }
+}

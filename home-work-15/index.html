@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+<!-- Header -->
+<header class="flex justify-between items-center p-4 w-full bg-red-400 border-b-2 border-gray-300 rounded-b-2xl shadow-lg">
+    <div>
+        <a href="#">
+            <img class="w-24 h-24" src="https://placehold.co/96x96/ef4444/white?text=Logo" alt="header-logo">
+        </a>
+    </div>
+    <div class="nav flex gap-8">
+        <a class="text-white flex items-center text-2xl font-semibold tracking-wider hover:scale-105 transition-all uppercase" href="#">
+            Home
+        </a>
+        <a class="text-white flex items-center text-2xl font-semibold tracking-wider hover:scale-105 transition-all uppercase" href="#">
+            Catalog
+        </a>
+        <a class="text-white flex items-center text-2xl font-semibold tracking-wider hover:scale-105 transition-all uppercase" href="#">
+            Contact
+        </a>
+        <a class="text-white flex items-center text-2xl font-semibold tracking-wider hover:scale-105 transition-all uppercase relative" href="#">
+            <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+            Cart
+        </a>
+    </div>
+    <div>
+        <button class="text-white text-2xl font-semibold">Login</button>
+    </div>
+</header>
+
+<!-- Main Content -->
+<main class="p-4">
+    <h1>Products</h1>
+    <div class="flex flex-wrap gap-4">
+        <!-- Product Card 1 -->
+        <div class="flex flex-col justify-center items-center border border-gray-300 shadow-sm rounded-lg hover:shadow-lg w-48 p-4 min-h-60 gap-4 hover:cursor-pointer hover:scale-105 transition bg-white">
+            <a href="#" class="flex flex-col justify-center items-center gap-4">
+                <h3>Cheesecake</h3>
+                <img class="w-20" src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=200&h=200&fit=crop" alt="Cheesecake">
+                <p>$25.00</p>
+            </a>
+            <div class="flex flex-col gap-2 w-full">
+                <button class="w-full bg-lime-500 text-white py-2 px-4 rounded-lg hover:bg-lime-600 transition flex items-center justify-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                    </svg>
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="flex flex-col justify-center items-center border border-gray-300 shadow-sm rounded-lg hover:shadow-lg w-48 p-4 min-h-60 gap-4 hover:cursor-pointer hover:scale-105 transition bg-white">
+            <a href="#" class="flex flex-col justify-center items-center gap-4">
+                <h3>Chocolate Cake</h3>
+                <img class="w-20" src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=200&h=200&fit=crop" alt="Chocolate Cake">
+                <p>$35.00</p>
+            </a>
+            <div class="flex flex-col gap-2 w-full">
+                <button class="w-full bg-lime-500 text-white py-2 px-4 rounded-lg hover:bg-lime-600 transition flex items-center justify-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                    </svg>
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="flex flex-col justify-center items-center border border-gray-300 shadow-sm rounded-lg hover:shadow-lg w-48 p-4 min-h-60 gap-4 hover:cursor-pointer hover:scale-105 transition bg-white">
+            <a href="#" class="flex flex-col justify-center items-center gap-4">
+                <h3>Chocolate Cupcake</h3>
+                <img class="w-20" src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=200&h=200&fit=crop" alt="Chocolate Cupcake">
+                <p>$4.50</p>
+            </a>
+            <div class="flex flex-col gap-2 w-full">
+                <button class="w-full bg-lime-500 text-white py-2 px-4 rounded-lg hover:bg-lime-600 transition flex items-center justify-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 0 11-4 0 2 2 0 014 0z"></path>
+                    </svg>
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+
+        <!-- Product Card 4 -->
+        <div class="flex flex-col justify-center items-center border border-gray-300 shadow-sm rounded-lg hover:shadow-lg w-48 p-4 min-h-60 gap-4 hover:cursor-pointer hover:scale-105 transition bg-white">
+            <a href="#" class="flex flex-col justify-center items-center gap-4">
+                <h3>Vanilla Cupcake</h3>
+                <img class="w-20" src="https://images.unsplash.com/photo-1586788680434-30d324b2d46f?w=200&h=200&fit=crop" alt="Vanilla Cupcake">
+                <p>$4.00</p>
+            </a>
+            <div class="flex flex-col gap-2 w-full">
+                <button class="w-full bg-lime-500 text-white py-2 px-4 rounded-lg hover:bg-lime-600 transition flex items-center justify-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                    </svg>
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
